@@ -20,6 +20,6 @@
  //******  Loop  **********************************************************
  void loop () {
  Valor = analogRead(ldr);
- Valor = map(Valor, 0, 1023, 0, 255);
+ Valor = map(Valor, 400, 1023, 0, 255);
  analogWrite(led, Valor);
  }
